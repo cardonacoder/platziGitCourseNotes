@@ -1,0 +1,14 @@
+Clase 1(
+    Git: Es un sistema de control de versiones
+    Git -> Se usa en la máquina local
+    Github -> Es el ambiente remoto que permite agregar colaboradores
+)
+
+Clase 2(
+    Git solo guarda los cambios.
+    git init -> Comando para iniciar un repositorio
+    git add -> Comando para que el repositorio sepa de la existencia de uno o varios archivos. 
+    git push -> Enviar el comit al servidor remoto
+)
+
+
