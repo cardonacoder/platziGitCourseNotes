@@ -152,10 +152,10 @@ donde la **URL** será  la dirección donde está almacenado el repositoro remot
 un repositorio local con todo el historial hasta ese momento y se descargan todos los archivos del proyecto.
 
 Enviar los cambios al repositorio remoto mediante un **push**
-[push](https://i.imgur.com/HbHFQNI.png)
+![push](https://i.imgur.com/HbHFQNI.png)
 
 Actualizar los cambios desde un repositorio remoto a un repositorio local
-[pull](https://i.imgur.com/YsnCPen.png)
+![pull](https://i.imgur.com/YsnCPen.png)
 
 ## ·Clase 14 - Introducción a las ramas o branches de Git·
 
@@ -184,13 +184,13 @@ Luego le vamos a decir a git que envie al origen, osea **origin** la rama **mast
 `git push origin master`
 
 Sin embargo sale este error:
-[Error](https://i.imgur.com/XuJAq42.png)
+![Error](https://i.imgur.com/XuJAq42.png)
 
 Este errors nos dice que el **remoto** tiene trabajo que el **local** no tiene. Entonces primero debemos realizar un
  `git fetch` y un  `git merge` mediante un `git pull origin master` es decir, descargue todo desde la rama remota **origin**
  hasta la rama local **master** sin embargo saldrá el siguiente error:
 
-[Error2](https://i.imgur.com/7r2TXlL.png)
+![Error2](https://i.imgur.com/7r2TXlL.png)
 
 Debido a que existe **historias** que no tienen relación. Una **historia** es un conjunto de commits.
 Lo anterior se soluciona mediante el comando `git pull origin master --allow-unrelated-histories`
