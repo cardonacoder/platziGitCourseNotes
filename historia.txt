@@ -5,3 +5,6 @@ Tengo 2 gatas.
 
 Una de las perras es blanca con algunas manchas de color café,
 se llama Hanna.
+
+Unas de las perras es de color café
+Se llama Canela.
