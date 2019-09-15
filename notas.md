@@ -182,3 +182,15 @@ Se crea el repositorio remoto mediante el comando:
 
 Luego le vamos a decir a git que envie al origen, osea **origin** la rama **master** mediante el comando:
 `git push origin master`
+
+Sin embargo sale este error:
+[Error](https://i.imgur.com/XuJAq42.png)
+
+Este errors nos dice que el **remoto** tiene trabajo que el **local** no tiene. Entonces primero debemos realizar un
+ `git fetch` y un  `git merge` mediante un `git pull origin master` es decir, descargue todo desde la rama remota **origin**
+ hasta la rama local **master** sin embargo saldrá el siguiente error:
+
+[Error2](https://i.imgur.com/7r2TXlL.png)
+
+Debido a que existe **historias** que no tienen relación. Una **historia** es un conjunto de commits.
+Lo anterior se soluciona mediante el comando `git pull origin master --allow-unrelated-histories`
