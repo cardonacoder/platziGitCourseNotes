@@ -129,5 +129,14 @@ Ver el historial de cambios:
 Se podrá observar que el último cambio es:
 commit 0b290e6989c3329ab4bae2adc70cb48e696d99dd (HEAD -> master)
 
-> **0b290e6989c3329ab4bae2adc70cb48e696d99dd** Este número representa el tag o el nombre de esa modificación y donde estoy ubicado.
+> **0b290e6989c3329ab4bae2adc70cb48e696d99dd** Este número representa el **tag** o el nombre de esa modificación y donde estoy ubicado.
 > **HEAD** Esta es la versión "HEAD" en la rama **master**, es decir, es la versión mas reciente.
+
+## Clase 11 ·Analizar cambios en los archivos de tu proyecto con Git·
+
+`git shot file_name`
+
+Muestra los cambios realizados en el archivo **file_name**
+
+`git diff tag_1 tag_2`
+Muestra las diferencias entre el commit con **tag_1** y el commit **tag_2**
