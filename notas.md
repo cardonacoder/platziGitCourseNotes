@@ -144,3 +144,25 @@ Muestra las diferencias entre el commit con **tag_1** y el commit **tag_2**
 ## Clase 12 · Volver en el tiempo en nuestro repositorio utilizando branches y checkout ·
 
 Mediante el comando `git checkout tagID file_name` donde **tagID** será el identificador, se podrá volver hacia otro commit
+
+## Clase 13 ·Flujo de trabajo básico con un repositorio remoto·
+
+Para iniciar un proyecto desde un repositorio local se inicia mediante el comando `git clone URL` en
+donde la **URL** será  la dirección donde está almacenado el repositoro remoto. Al hacer esto, se crea
+un repositorio local con todo el historial hasta ese momento y se descargan todos los archivos del proyecto.
+
+Enviar los cambios al repositorio remoto mediante un **push**
+[push](https://i.imgur.com/HbHFQNI.png)
+
+Actualizar los cambios desde un repositorio remoto a un repositorio local
+[pull](https://i.imgur.com/YsnCPen.png)
+
+## ·Clase 14 - Introducción a las ramas o branches de Git·
+
+`git checkout -b branchName` Para crear una rama y pasar a esa rama, donde **branchName** es el nombre de la rama que se desea crear.
+
+Se puede decir que el **head** es como un puntero al commit donde se está trabajando.
+
+## · Clase 15 - Fusión de ramas con Git merge·
+
+`git -am "mensaje"` Se hace el **add** y el **commit** en un solo comando
