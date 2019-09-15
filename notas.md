@@ -166,3 +166,19 @@ Se puede decir que el **head** es como un puntero al commit donde se está traba
 ## · Clase 15 - Fusión de ramas con Git merge·
 
 `git -am "mensaje"` Se hace el **add** y el **commit** en un solo comando
+
+Para realizar el `git merge branchName` es necesario ubicarse en la rama **master**.
+
+`git commit -a --amend` Para corregir el mensaje de un commit.
+
+## · Clase 16 - Solución de conflictos al hacer un merge ·
+
+Existirá un conflicto de merge cuando dos o mas personas modifiquen las mismas líneas de un archivo
+
+## · Clase 17 - Uso de GitHub ·
+
+Se crea el repositorio remoto mediante el comando:
+`git remote add origin https://github.com/cardonacoder/platziGitCourseNotes.git`
+
+Luego le vamos a decir a git que envie al origen, osea **origin** la rama **master** mediante el comando:
+`git push origin master`
