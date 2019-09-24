@@ -194,3 +194,5 @@ Este errors nos dice que el **remoto** tiene trabajo que el **local** no tiene. 
 
 Debido a que existe **historias** que no tienen relación. Una **historia** es un conjunto de commits.
 Lo anterior se soluciona mediante el comando `git pull origin master --allow-unrelated-histories`
+
+## · Clase 18 Cómo funcionan las llaves públicas y privadas ·
