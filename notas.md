@@ -134,7 +134,7 @@ commit 0b290e6989c3329ab4bae2adc70cb48e696d99dd (HEAD -> master)
 
 ## Clase 11 · Analizar cambios en los archivos de tu proyecto con Git ·
 
-`git shot file_name`
+`git show file_name`
 
 Muestra los cambios realizados en el archivo **file_name**
 
